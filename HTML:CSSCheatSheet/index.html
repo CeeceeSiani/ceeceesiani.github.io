@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link href="styles.css" rel="stylesheet" />
+    <title>Cheat Sheet</title>
+  </head>
+  <body>
+    <h1>Cheat Sheet</h1>
+    <table scope:row(26) col(3) id="element-table">
+      <thead>
+        <th>Code</th>
+        <th>Element</th>
+        <th>Description</th>
+      </thead>
+      <tbody>
+        <tr>
+          <td>&lt;!DOCTYPE html&gt;</td>
+          <td>Document type declaration</td>
+          <td>
+            First piece of code on a webpage to let browsers know the coding
+            language.
+          </td>
+        </tr>
+        <tr>
+          <td>&lt;html&gt;</td>
+          <td>HTML</td>
+          <td>Anything between the tags will be interpreted in html.</td>
+        </tr>
+        <tr>
+          <td>&lt;head&gt;</td>
+          <td>Head</td>
+          <td>
+            Tells the browser information about the webpage (metadata). Not
+            visible.
+          </td>
+        </tr>
+        <tr>
+          <td>&lt;style&gt;</td>
+          <td>Style</td>
+          <td>Element which sets the style within the head element.</td>
+        </tr>
+        <tr>
+          <td>&lt;title&gt;</td>
+          <td>Title</td>
+          <td>
+            Title of the webpage. Only displayed in the browser tab. This goes
+            into the head section.
+          </td>
+        </tr>
+        <tr>
+          <td>&lt;body&gt;</td>
+          <td>Body</td>
+          <td>Everything between this tags makes up the webpage.</td>
+        </tr>
+        <tr>
+          <td>&lt;p&gt;</td>
+          <td>Paragraph</td>
+          <td>Blocks of plain text</td>
+        </tr>
+        <tr>
+          <td>&lt;a&gt;</td>
+          <td>Anchor</td>
+          <td>
+            Anchor element links to a webpage with the 'href' attribute. Can
+            turn almost every element into a link by wrapping the content in the
+            a element.
+          </td>
+        </tr>
+        <tr>
+          <td>&lt;div&gt;</td>
+          <td>Division</td>
+          <td>
+            Divides the programming into sections that you can't see visually.
+            This helps to group elements to apply styles.
+          </td>
+        </tr>
+        <tr>
+          <td>&lt;span&gt;</td>
+          <td>Span</td>
+          <td>Short pieces of text or html</td>
+        </tr>
+        <tr>
+          <td>&lt;em&gt;</td>
+          <td>Emphasis</td>
+          <td><em>Emphasises</em> text in italics.</td>
+        </tr>
+        <tr>
+          <td>&lt;strong&gt;</td>
+          <td>Strong</td>
+          <td><strong>Highlights</strong> important text in bold.</td>
+        </tr>
+        <tr>
+          <td>&lt;br&gt;</td>
+          <td>Line Break</td>
+          <td>Gives a line break</td>
+        </tr>
+        <tr>
+          <td>&lt;ul&gt;</td>
+          <td>Unordered List</td>
+          <td>
+            An unordered list in bullet point format. Must include the 'li'
+            element.
+          </td>
+        </tr>
+        <tr>
+          <td>&lt;ol&gt;</td>
+          <td>Ordered List</td>
+          <td>
+            An ordered list in numbered format. Must include the 'li' element.
+          </td>
+        </tr>
+        <tr>
+          <td>&lt;li&gt;</td>
+          <td>List</td>
+          <td>
+            List item tag. Paired with ul and ol, li creates the items in the
+            list. li must be used for every item.
+          </td>
+        </tr>
+        <tr>
+          <td>&lt;img&gt;</td>
+          <td>Link</td>
+          <td>
+            A self closing element that add images into the web page. Requires
+            'src' attribute to work and 'alt' attribute to make inclusive. E.g:
+            'img src=(URL or path) alt='description of the image';'
+          </td>
+        </tr>
+        <tr>
+          <td>&lt;video&gt;</td>
+          <td>Video</td>
+          <td>
+            Adds video into the webpage. Requires a closing tag. Src, width,
+            height, controls attributes needed and 'Video not supported' between
+            the opening and closing tags to show if browser can't open. No 'alt'
+            attribute needed.
+          </td>
+        </tr>
+        <tr>
+          <td>&lt;audio&gt;</td>
+          <td>Audio</td>
+          <td>Adds audio content using the 'source' element.</td>
+        </tr>
+        <tr>
+          <td>&lt;source&gt;</td>
+          <td>Source</td>
+          <td>
+            add a url in. E.g. &lt;source src="URL" type="audio/mp3" autoplay
+            controls&gt;
+          </td>
+        </tr>
+        <tr>
+          <td>&lt;table&gt;</td>
+          <td>Table</td>
+          <td>
+            Creates a table. Rows, columns and cells also have to be created as
+            elements nested in the table element.
+          </td>
+        </tr>
+        <tr>
+          <td>&lt;thead&gt;</td>
+          <td>Table Heading</td>
+          <td>th element goes within this.</td>
+        </tr>
+        <tr>
+          <td>&lt;tbody&gt;</td>
+          <td>Table body</td>
+          <td>includes all of the table content except the heading.</td>
+        </tr>
+        <tr>
+          <td>&lt;tr&gt;</td>
+          <td>Table Rows.</td>
+          <td>
+            All the content for a row must be surrounded by the 'tr' element.
+          </td>
+        </tr>
+        <tr>
+          <td>&lt;td&gt;</td>
+          <td>Table Data</td>
+          <td>
+            a.k.a the cells. Everything within the cell. td usually sits with in
+            a tr element.
+          </td>
+        </tr>
+        <tr>
+          <td>&lt;th&gt;</td>
+          <td>Table heading(cells)</td>
+          <td>Used the same as a cell within the first tr of the table.</td>
+        </tr>
+        <tr>
+          <td>&lt;input&gt;</td>
+          <td>Input</td>
+          <td>
+            An element when paired with a with an attribute can create
+            checkboxes, radio buttons etc
+          </td>
+        </tr>
+        <tr>
+          <td>&lt;typearea&gt;</td>
+          <td>Type Area</td>
+          <td>
+            An element that creates a text box for multiline inputs. Can also
+            support row and col attributes
+          </td>
+        </tr>
+        <tr>
+          <td>&lt;form&gt;</td>
+          <td>Form</td>
+          <td>Collects and sends information to a external source</td>
+        </tr>
+        <tr>
+          <td>&lt;select&gt;</td>
+          <td>Select</td>
+          <td>Creates a drop down list. Using option elements for choices.</td>
+        </tr>
+        <tr>
+          <td>&lt;option&gt;</td>
+          <td>Option</td>
+          <td>
+            Element with the select element to create options in a drop down
+            menu.
+          </td>
+        </tr>
+        <tr>
+          <td>&lt;datalist&gt;</td>
+          <td>Data List</td>
+          <td>
+            When paired with the input element and option element it datalist
+            creates autocomplette options out of the list elements.
+          </td>
+        </tr>
+        <tr>
+          <td>&lt;label&gt;</td>
+          <td>Label</td>
+          <td>Element that id's an inputs specific attribute'</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h3>Semantic</h3>
+    <table scope:row(10) col(2) id="semantic-table">
+      <thead>
+        <th>Code</th>
+        <th>Element</th>
+        <th>Description</th>
+      </thead>
+      <tbody>
+        <tr>
+          <td>&lt;header&gt;</td>
+          <td>Header</td>
+          <td>Instead of the 'head' element.</td>
+        </tr>
+        <tr>
+          <td>&lt;main&gt;</td>
+          <td>Main</td>
+          <td>for the main content of the page.</td>
+        </tr>
+        <tr>
+          <td>&lt;footer&gt;</td>
+          <td>Footer</td>
+          <td>
+            for the bottom of the webpage. Includes contact info, copyright
+            info, terms and conditions, site map, references etc.
+          </td>
+        </tr>
+        <tr>
+          <td>&lt;section&gt;</td>
+          <td>Section</td>
+          <td>
+            Defines elements like chapters or heading with the same thought.
+          </td>
+        </tr>
+        <tr>
+          <td>&lt;article&gt;</td>
+          <td>Article</td>
+          <td>
+            Holds content that makes sense on its own eg articles, blogs and
+            comments.
+          </td>
+        </tr>
+        <tr>
+          <td>&lt;aside&gt;</td>
+          <td>Aside</td>
+          <td>
+            Makes additional information that enhances an element. Used with
+            article and section. E.g. bibliographies, endnotes, comments, pull
+            comments, editorial sidebars and additional information.
+          </td>
+        </tr>
+        <tr>
+          <td>&lt;figure&gt;</td>
+          <td>Figure</td>
+          <td>Encapsulates media. Used with 'img' element.</td>
+        </tr>
+        <tr>
+          <td>&lt;figcaption&gt;</td>
+          <td>Figcaption</td>
+          <td>
+            Adds a caption under the media element. Inside the 'figure' element.
+          </td>
+        </tr>
+        <tr>
+          <td>&lt;embed&gt;</td>
+          <td>Embed</td>
+          <td>
+            Element that incorporates any media with an 'src' attribute. Legacy
+            element that is only used now for gifs.
+          </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h2>Attributes</h2>
+    <table scope:row(13) col(2) id="attribute-table">
+      <thead>
+        <th>Code</th>
+        <th>Attribute</th>
+        <th>Description</th>
+      </thead>
+      <tbody>
+        <tr>
+          <td>href</td>
+          <td>Hyperlink Reference</td>
+          <td>link to a path or address of another file. URL or pathway</td>
+        </tr>
+        <tr>
+          <td>target</td>
+          <td>Target</td>
+          <td>
+            Specifies how a link should open. E.g. "target=_blank" will open the
+            link in a new tab.
+          </td>
+        </tr>
+        <tr>
+          <td>id</td>
+          <td>Identification</td>
+          <td>
+            Gives the element a unique custom id that can be used as a href link
+            on the page or a unique id for css styling. When referred to in CSS,
+            id will outrank any other classifications.
+          </td>
+        </tr>
+        <tr>
+          <td>scope</td>
+          <td>Scope</td>
+          <td>
+            Within the table element the scope has 2 values; row and col to give
+            the number of rows and columns to the table.
+          </td>
+        </tr>
+        <tr>
+          <td>colspan</td>
+          <td>Column Span</td>
+          <td>Attribute thats value is how many columns the td spreads.</td>
+        </tr>
+        <tr>
+          <td>rowspan</td>
+          <td>Row Span</td>
+          <td>Attribute thats value is how many rows the td spreads.</td>
+        </tr>
+        <tr>
+          <td>src</td>
+          <td>SRC</td>
+          <td>Attribute that specifies a url internally or externally.</td>
+        </tr>
+        <tr>
+          <td>type</td>
+          <td>Type</td>
+          <td>Attribute that specifies that type of element.</td>
+        </tr>
+        <tr>
+          <td>autoplay</td>
+          <td>Autoplay</td>
+          <td>Attribute that causes audiio and video content to autoplay.</td>
+        </tr>
+        <tr>
+          <td>controls</td>
+          <td>Controls</td>
+          <td>
+            Attribute that gives audio and video controls for pause and play.
+          </td>
+        </tr>
+        <tr>
+          <td>loop</td>
+          <td>Loop</td>
+          <td>Attribute that makes video play continuously.</td>
+        </tr>
+        <tr>
+          <td>style</td>
+          <td>Style</td>
+          <td>Attribute for inline style setting.</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h2>How to...</h2>
+    <h3>Link to an element on the page</h3>
+    <p>
+      Ensure that the element is ID'd. E.g. &lt;li a href="#id"&gt;ID&lt;/a
+      &gt;&lt;/li&gt;
+    </p>
+    <h3>Comment in html</h3>
+    <p>Use &lt;!-- to open a comment and --&gt; closes a comment.</p>
+  </body>
+</html>
